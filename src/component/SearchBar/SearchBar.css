@@ -1,0 +1,28 @@
+.search-bar {
+    display: grid;
+    width: 330px;
+    position: absolute;
+    top: 114px;
+    left:85px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    bottom: 9px;
+    color: #000;
+    font-size: 26px;
+  }
+  .search {
+    padding: 16px 10px 16px 41px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #151b32;
+    width: 100%;
+    border: 1px solid #bbbcc1;
+  }
+
+  

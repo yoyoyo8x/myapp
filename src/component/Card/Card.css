@@ -1,0 +1,66 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+  display: flex;
+  width: 380px;
+  height: 208px;
+  gap: 16px;
+
+}
+.img-container {
+  width: 97px;
+  height: 97px;
+  margin-top: 24px;
+  display: flex;
+  margin-left:35px;
+}
+.img-container img {
+  border-radius: 100%;
+}
+.card ul {
+  padding: 44px 65px 141px 16px;
+  width: 100%;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.info h4 {
+  font-style: black;
+  font-family: Merriweather;
+  font-size: 18px;
+  line-height: 23px;
+  line-height: 100%;
+  vertical-align: top;
+  width: 100%;
+}
+.info p {
+  font-family: Poppins;
+  font-size: medium;
+  font-size: 14px;
+  line-height: 21px;
+  line-height: 100%;
+  vertical-align: top;
+}
+.tag-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding-top: 20px;
+
+}
+.tag {
+  border: 1px dotted #516fd5;
+  border-radius: 10px;
+  padding: 1px 4px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #516fd5;
+}
