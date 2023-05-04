@@ -62,7 +62,7 @@ const NewUser = () => {
       <div className="container">
         <Card
           data={users.filter((item) =>
-            item.name.toLowerCase().includes(result.toLowerCase())
+            item.name.toLowerCase().includes(result.toLowerCase())||item.place.toLowerCase().includes(result.toLowerCase())
           )}
         />
       </div>
